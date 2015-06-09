@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/main_color_500"
+    app:theme="@style/ToolBarStyle">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSearch"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="50dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageViewSearch"
+        android:src="@drawable/searchicon"
+        android:layout_marginRight="25dp"
+        android:layout_gravity="right|top" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageViewImport"
+        android:src="@drawable/importnewimport"
+        android:layout_marginRight="25dp"
+        android:layout_gravity="right|top" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/checkBoxContactImport"
+        android:layout_marginRight="25dp"
+        android:layout_gravity="center_vertical|right"
+        android:gravity="center|center_vertical|end" />
+</android.support.v7.widget.Toolbar>

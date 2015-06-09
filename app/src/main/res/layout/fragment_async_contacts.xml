@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.keepintouch.fragment.AsyncContactsFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:weightSum="1">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+        <!--android:id="@+id/pink_icon"-->
+        <!--android:layout_width="303dp"-->
+        <!--android:layout_height="196dp"-->
+        <!--fab:fab_icon="@drawable/check_off_dark"-->
+        <!--fab:fab_colorNormal="@color/main_color_500"-->
+        <!--fab:fab_colorPressed="@color/main_color_500"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_gravity="right|bottom" />-->
+</FrameLayout>
